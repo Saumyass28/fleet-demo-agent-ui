@@ -1,0 +1,37 @@
+{
+  "oems": [
+    {"name": "Ford Commercial Vehicles", "contact": "ford@fleet.com", "city": "Detroit, MI"},
+    {"name": "General Motors Fleet", "contact": "gm@fleet.com", "city": "Dallas, TX"},
+    {"name": "PACCAR (Kenworth & Peterbilt)", "contact": "paccar@fleet.com", "city": "Seattle, WA"},
+    {"name": "Navistar International", "contact": "navistar@fleet.com", "city": "Chicago, IL"},
+    {"name": "Tesla Semi", "contact": "tesla@fleet.com", "city": "Fremont, CA"}
+  ],
+  "vehicles": [
+    {"model": "Ford F-750", "dealer": "Ford Dealer Detroit", "type": "Truck", "price_lakhs": 30, "mileage": "7 mpg", "warranty": "3 years"},
+    {"model": "Chevy Express Van", "dealer": "GM Dealer Dallas", "type": "Van", "price_lakhs": 18, "mileage": "15 mpg", "warranty": "3 years"},
+    {"model": "Kenworth T680", "dealer": "Kenworth Dealer Seattle", "type": "Truck", "price_lakhs": 45, "mileage": "6.5 mpg", "warranty": "4 years"},
+    {"model": "International LT", "dealer": "Navistar Dealer Chicago", "type": "Truck", "price_lakhs": 38, "mileage": "6.8 mpg", "warranty": "4 years"},
+    {"model": "Tesla Semi", "dealer": "Tesla Dealer Fremont", "type": "Electric Truck", "price_lakhs": 50, "mileage": "500 miles per charge", "warranty": "5 years"}
+  ],
+  "reviews": {
+    "Ford F-750": [
+      {"rating": 4, "comment": "Strong performance, great for heavy loads."},
+      {"rating": 5, "comment": "Ford service network is excellent."}
+    ],
+    "Chevy Express Van": [
+      {"rating": 4, "comment": "Good utility for city deliveries."},
+      {"rating": 3, "comment": "Fuel economy could be better."}
+    ],
+    "Kenworth T680": [
+      {"rating": 5, "comment": "Best in class comfort and efficiency."},
+      {"rating": 4, "comment": "High upfront cost but worth it."}
+    ],
+    "International LT": [
+      {"rating": 4, "comment": "Reliable truck with good uptime."}
+    ],
+    "Tesla Semi": [
+      {"rating": 5, "comment": "Amazing acceleration and futuristic design."},
+      {"rating": 4, "comment": "Charging network still growing."}
+    ]
+  }
+}
